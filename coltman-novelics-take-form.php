@@ -17,4 +17,10 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Need to store this variable before leaving this file
-define( 'COLTMAN_VERSION', __FILE__ );
+define( 'COLTMAN_VERSION', '1.0.0' );
+
+
+
+
+require  __DIR__  . '/admin/admin.php';
+require  __DIR__  . '/public/public.php';
